@@ -1,0 +1,34 @@
+To iterate is human, to recurse divine.:::L. Peter Deutsch
+It takes an intelligent person to build something complex; it takes a genius to build something simple.:::Anonymous
+Real Programmers don't comment their code. If it was hard to write, it should be hard to understand.:::Anonymous
+Great things are not done by impulse, but by a series of small things brought together.:::Vincent van Gogh
+Make no mistake about it: Computers process numbers - not symbols. We measure our understanding (and control) by the extent to which we can arithmetize an activity.:::Alan J. Perlis
+Sufficiently advanced incompetence is indistinguishable from malice.:::Clark's law
+Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.:::Rick Osborne
+Fast, Cheap, Reliable: Pick any two.:::Anonymous
+Program testing can be a very effective way to show the presence of bugs, but is hopelessly inadequate for showing their absence.:::Edsger Dijkstra
+Pasting code from the Internet into production code is like chewing gum found in the street.:::Anonymous
+The function of good software is to make the complex appear to be simple.:::Grady Booch
+I (...) am rarely happier than when spending an entire day programming my computer to perform automatically a task that would otherwise take me a good ten seconds to do by hand.:::Douglas Adams
+If you don't fail at least 90 percent of the time, you're not aiming high enough.:::Alan Kay
+Simplicity is the ultimate sophistication.:::Leonardo da Vinci
+If it works, leave it alone - there's no need to understand it. If it fails, try to fix it - there's no time to understand it.:::Bill Pfeifer
+Make something fool-proof and someone will make a better fool.:::Anonymous
+My programs don't have bugs, they just develop random features.:::Anonymous
+The only "intuitive" interface is the nipple. After that it's all learned.:::Bruce Ediger
+Inside every complex program is a simple program trying to get out.:::Anonymous
+You can write software expecting the hardware to be perfect, unfortunately hardware is not perfect and you have to fix it in code.:::W. Giraud
+If the code and the comments disagree, then both are probably wrong.:::Anonymous
+Elegance is not optional.:::Richard A. O'Keefe
+I'll try to be nicer if you try to be smarter.:::Assaf Nitzan
+UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity.:::Dennis Ritchie
+Programming languages are like girlfriends: The new one is better because you are better.:::Anonymous
+Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it.:::Alan J. Perlis
+Software with no bugs is obsolete.:::Anonymous
+Any sufficiently advanced bug is indistinguishable from a feature.:::Rich Kulawiec
+Users are a terrible thing. Systems would be infinitely more stable without them.:::Michael T. Nygard
+Code never lies, comments sometimes do.:::Ron Jeffries
+The best things are simple, but finding these simple things is not simple.:::Anonymous
+Never memorize what you can look up in books.:::Albert Einstein
+Most hackers are young because young people tend to be adaptable. As long as you remain adaptable, you can always be a good hacker.:::Emmanuel Goldstein
+Premature optimization is the root of all evil.:::Donald E. Knuth

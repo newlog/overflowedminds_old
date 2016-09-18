@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link href="static/css/metro-bootstrap.css" rel="stylesheet">
+        <link href="static/css/iconFont.css" rel="stylesheet">
+        <link href="static/css/mine.css" rel="stylesheet">
+        <!-- Load JavaScript Libraries -->
+        <script src="static/js/jquery.js"></script>
+        <script src="static/js/jquery.widget.js"></script>
+        <script src="static/js/metro.js"></script>
+    </head>
+    <body class="metro" bgcolor="#DDDDDD">
+        <nav class="navigation-bar light fixed-top shadow">
+            <nav class="navigation-bar-content">
+                <a class="element" href="/"><span class="icon-home"></span></a>
+                <span class="element-divider"></span>
+                <a class="element" href="/papers">papers</a>
+                <a class="element" href="/tools">tools</a>
+                <a class="element" href="/exploits">exploits</a>
+                <a class="element" href="#">forum</a>
+                
+                <div class="element place-right">
+                    <a href="#" class="dropdown-toggle">about</a>
+                    <ul class="dropdown-menu place-right inverse" data-role="dropdown">
+                        <li><a href="/newlog">newlog</a></li>
+                        <li><a href="/vlan7">vlan7</a></li>
+                        <li><a href="/om">Overflowed Minds</a></li>
+                    </ul>
+                </div>
+
+                <div class="element input-element place-right">
+                    <form action="/search">
+                        <div class="input-control text">
+                            <input type="text" placeholder="XSS or SQLi here...">
+                            <button class="btn-search"></button>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </nav>
+        <div class="main">
+            <div class="title">
+                OVERFLOWED MINDS
+            </div>
+
+ 	        <div class="main-container">
+                <div class="grid show-grid">
+                    {% if items -%}
+                        {% for author, objs in items.iteritems() -%}
+                            <div class="author"> <h2> {{author}} </h2></div>
+                            {% for obj in objs -%}
+                                {% if loop.index0 is divisibleby 2 -%}
+                                <div class="row">
+                                {%- endif %}
+                                    <div class="span6 content-box shadow">
+                                        <a href="{{obj.path}}"><h3>{{obj.title}}</h3></a><br>
+                                        <p>{{obj.description}}</p>
+                                        {{obj.date}}<br>
+                                    </div>
+                                {% if loop.index is divisibleby(2) or (loop.length is not divisibleby(2) and loop.last) -%}
+                                </div>
+                                {% endif %}
+                            {%- endfor %}
+                        {%- endfor %}
+                    {%- endif %}
+                </div>
+	        </div>
+        </div>
+    </body>
+</html>

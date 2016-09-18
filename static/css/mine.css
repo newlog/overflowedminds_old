@@ -1,0 +1,68 @@
+.main {
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    margin-top: 70px;
+    padding-left: 20px;
+    font-size: 50px;
+    font-family: monospace;
+    color: #555;
+    font-style: bold italic;
+    text-shadow: 1px 1px 2px #888888;
+}
+
+.main-container {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.content-box {
+    background-color: rgba(250, 250, 250, 0.5);
+    padding: 10px;
+    border: 1px solid gray;
+    text-align: left;
+}
+
+.author {
+    padding-top: 20px;
+    margin-left: -30px;
+    text-align: left;
+}
+
+.quote {
+    position: absolute;
+    color: #777;
+    font-size: 35px;
+    width: 50%;
+    right: 10%;
+    bottom: 25%;
+}
+
+.quote cite {
+    position: absolute;
+    display: block;
+    right: 10px;
+    font-size: 30px;
+}
+
+blockquote {
+    position: relative;
+    font-style: italic;
+    line-height: 1.45;
+}
+
+.nothing_to_see {
+    margin-top: 40px;
+}
+
+.about-item:hover {
+    background-color: rgba(45, 173, 237, 0.8);
+}
